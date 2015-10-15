@@ -1,0 +1,30 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+    <ListView 
+        android:id="@+id/fragment_postbar_listview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:dividerHeight="4dp"
+        android:divider="#00000000"
+        ></ListView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Postbar"
+        android:textSize="20dp"
+        android:id="@+id/textView"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/fragment_postbar_listview"
+        android:layout_alignStart="@+id/fragment_postbar_listview"
+        android:layout_alignRight="@+id/fragment_postbar_listview"
+        android:layout_alignEnd="@+id/fragment_postbar_listview" />
+
+
+</RelativeLayout>
+<!-- From: file:/F:/src/BaiduNewsSearchT2/app/src/main/res/layout/fragment_postbar.xml -->

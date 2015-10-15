@@ -1,0 +1,107 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/selector_listview_item_split"
+    android:padding="10dp" >
+
+    <TextView
+        android:id="@+id/fragment_postbar_listview_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/fragment_postbar_listview_title"
+        android:ellipsize="end"
+        android:maxLines="2"
+        android:text="考研必备的英语单词和一套很棒的记忆法，需瞧~"
+        android:textColor="#313233"
+        android:textSize="16sp" />
+
+    <RelativeLayout
+        android:id="@+id/fragment_postbar_listview_relative"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+        android:layout_below="@+id/fragment_postbar_listview_title" >
+
+        <ImageView
+            android:id="@+id/fragment_postbar_listview_photo1"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_alignParentLeft="true" />
+
+        <ImageView
+            android:id="@+id/fragment_postbar_listview_photo2"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@+id/fragment_postbar_listview_photo1" />
+
+        <ImageView
+            android:id="@+id/fragment_postbar_listview_photo3"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@+id/fragment_postbar_listview_photo2"/>
+
+        <TextView
+            android:id="@+id/fragment_postbar_listview_details"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="2"
+            android:text="萨克都不快接啊苏打绿奥斯卡大军SD卡将加快速度"
+            android:textColor="#545454"
+            android:textSize="14sp"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/fragment_postbar_listview_relative_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/fragment_postbar_listview_relative"
+        android:layout_marginTop="8dp" >
+
+        <TextView
+            android:id="@+id/fragment_postbar_listview_author"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="yang122312312"
+            android:textColor="#7A7C80"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/fragment_postbar_listview_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@+id/fragment_postbar_listview_author"
+            android:text="13:33"
+            android:textColor="#7A7C80"
+            android:textSize="12sp" />
+
+        <ImageView
+            android:id="@+id/fragment_postbar_listview_reply_Num_img"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="5dp"
+            android:layout_toLeftOf="@+id/fragment_postbar_listview_reply_Num"
+            android:src="@drawable/icon_replay_times" />
+
+        <TextView
+            android:id="@+id/fragment_postbar_listview_reply_Num"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="5dp"
+            android:text="13"
+            android:textColor="#7A7C80"
+            android:textSize="12sp" />
+    </RelativeLayout>
+
+</RelativeLayout><!-- From: file:/F:/src/BaiduNewsSearchT2/app/src/main/res/layout/listview_fragment_postbar.xml -->

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="E:\tools\android-sdk-windows\android-sdk-windows\extras\android\m2repository\com\android\support\support-annotations\20.0.0\support-annotations-20.0.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="9d9013e9ff35fc3756411e62873c363c70c638fa">
+        <dex dex="F:\src\BaiduNewsSearchT2\app\build\intermediates\pre-dexed\debug\support-annotations-20.0.0-0faee9596ec512a438dbef3c325747a42706b96b.jar" />
+    </item>
+    <item
+        jar="F:\src\BaiduNewsSearchT2\app\libs\jsoup-1.6.3.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="f5794fa7847465283436bd9843045033971d0b9b">
+        <dex dex="F:\src\BaiduNewsSearchT2\app\build\intermediates\pre-dexed\debug\jsoup-1.6.3-efbbd8e08d8e30c0745970b0e2c5a4f69740fdfd.jar" />
+    </item>
+    <item
+        jar="F:\src\BaiduNewsSearchT2\app\build\intermediates\exploded-aar\com.android.support\support-v4\20.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="8694693636ab36910c8100ce527c258ff3ebece0">
+        <dex dex="F:\src\BaiduNewsSearchT2\app\build\intermediates\pre-dexed\debug\classes-72972c4a25259b9aed094c9560929e8d842e3ea3.jar" />
+    </item>
+    <item
+        jar="F:\src\BaiduNewsSearchT2\app\build\intermediates\exploded-aar\com.android.support\support-v4\20.0.0\jars\libs\internal_impl-20.0.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="e40b3078e3fbd353c9f44da8df25a8fc0078209d">
+        <dex dex="F:\src\BaiduNewsSearchT2\app\build\intermediates\pre-dexed\debug\internal_impl-20.0.0-f1def0b4eda99d761ed7a814796bf1ba60dd61d9.jar" />
+    </item>
+
+</items>

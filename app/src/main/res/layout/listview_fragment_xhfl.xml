@@ -1,0 +1,19 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/selector_listview_item_split"
+    android:padding="10dp" >
+
+    <TextView
+        android:id="@+id/fragment_xhfl_listview_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:ellipsize="end"
+        android:maxLines="2"
+        android:text="考研必备的英语单词和一套很棒的记忆法，需瞧~"
+        android:textColor="#313233"
+        android:textSize="16sp" />
+
+</RelativeLayout>

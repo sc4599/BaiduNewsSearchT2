@@ -1,0 +1,64 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/selector_listview_item_split" >
+
+    <RelativeLayout 
+        android:layout_width="match_parent"
+        android:padding="8dp"
+        android:layout_height="100dp" >
+
+        <TextView
+            android:id="@+id/fragment_news_listview_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginRight="10dp"
+            android:layout_toLeftOf="@+id/fragment_news_listview_photo"
+            android:maxLines="2"
+            android:textColor="#313233"
+            android:textSize="16sp" />
+        <TextView
+            android:id="@+id/fragment_news_listview_summary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginRight="10dp"
+            android:layout_toLeftOf="@+id/fragment_news_listview_photo"
+            android:maxLines="3"
+            android:textColor="#4682B4"
+            android:textSize="12sp"
+            android:layout_below="@+id/fragment_news_listview_title"
+            />
+
+        <ImageView
+            android:id="@+id/fragment_news_listview_photo"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:contentDescription="@string/action_settings" />
+
+        <TextView
+            android:id="@+id/fragment_news_listview_source"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="7dp"
+            android:textColor="#7A7C80"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/fragment_news_listview_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="7dp"
+            android:layout_marginLeft="7dp"
+            android:layout_toRightOf="@+id/fragment_news_listview_source"
+            android:textColor="#7A7C80"
+            android:textSize="12sp" />
+    </RelativeLayout>
+
+</RelativeLayout>

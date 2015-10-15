@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="20.0.0"><source path="F:\src\BaiduNewsSearchT2\app\build\intermediates\exploded-aar\com.android.support\support-v4\20.0.0\assets"/></dataSet><dataSet config="main"><source path="F:\src\BaiduNewsSearchT2\app\src\main\assets"><file name="index.html" path="F:\src\BaiduNewsSearchT2\app\src\main\assets\index.html"/></source></dataSet><dataSet config="debug"><source path="F:\src\BaiduNewsSearchT2\app\src\debug\assets"/></dataSet></merger>

@@ -1,0 +1,64 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rel"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NewsDetailsActivity" >
+
+    <WebView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/activity_news_details_webview"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/activity_news_details_auther" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:text="title"
+        android:id="@+id/activity_news_details_title"
+        android:textSize="16dp"
+        android:gravity="center"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:text="author | time"
+        android:textSize="12dp"
+        android:gravity="center"
+        android:textColor="#7A7C80"
+        android:id="@+id/activity_news_details_auther"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@id/activity_news_details_title"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <RelativeLayout
+        android:id="@+id/activity_news_details_relative_is_loading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true" >
+
+        <ProgressBar
+            android:id="@+id/activity_news_details_progress_bar"
+            style="@android:style/Widget.ProgressBar.Small"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_toRightOf="@+id/activity_news_details_progress_bar"
+            android:layout_height="wrap_content"
+            android:text="@string/isLoading"
+            android:textColor="#434343"
+            android:textSize="14sp"
+            />
+    </RelativeLayout>
+
+</RelativeLayout><!-- From: file:/F:/src/BaiduNewsSearchT2/app/src/main/res/layout/activity_news_details.xml -->

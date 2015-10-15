@@ -1,0 +1,59 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="120dp"
+    android:background="@drawable/selector_listview_item_split"
+    android:orientation="horizontal"
+    android:padding="8dp" >
+
+    <ImageView
+        android:id="@+id/fragment_photo_listview_image1"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:layout_marginRight="5dp"
+        android:layout_weight="1"
+        android:adjustViewBounds="true"
+        android:contentDescription="@string/share"
+        android:scaleType="centerCrop"
+        android:src="@drawable/img" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/fragment_photo_listview_title"
+        android:maxLines="2"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_toRightOf="@+id/fragment_photo_listview_image1"
+        android:layout_toEndOf="@+id/fragment_photo_listview_image1"
+        android:textColor="#313233"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Texttgfadsgfasdfasdfasdfasdfasfasdfasdfasdfasdfasdf"
+        android:maxLines="3"
+        android:id="@+id/fragment_photo_listview_summary"
+        android:layout_alignLeft="@id/fragment_photo_listview_title"
+        android:layout_alignRight="@id/fragment_photo_listview_title"
+        android:layout_below="@id/fragment_photo_listview_title"
+        android:textColor="#4682B4"
+        android:textSize="13sp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/fragment_photo_listview_time"
+        android:layout_alignRight="@id/fragment_photo_listview_summary"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@id/fragment_photo_listview_summary"
+        android:textColor="#7A7C80"
+        android:textSize="12sp"/>
+
+
+</RelativeLayout><!-- From: file:/F:/src/BaiduNewsSearchT2/app/src/main/res/layout/listview_fragment_photo.xml -->

@@ -1,0 +1,73 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.linpeng.baidunewssearch.MainActivity" >
+
+    <FrameLayout
+        android:id="@+id/main_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/main_fragment_rgp" >
+        <android.support.v4.view.ViewPager
+            android:id="@+id/main_fragment_viewPager"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+        </android.support.v4.view.ViewPager>
+    </FrameLayout>
+
+    <RadioGroup
+        android:id="@+id/main_fragment_rgp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/shape_bottom_radio_group_back"
+        android:checkedButton="@+id/main_rbn_news"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/main_rbn_zxxh"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:button="@null"
+            android:background="@drawable/selector_qx_button"
+            android:text="@string/zxxh"
+            android:gravity="center"
+            android:checked="false" />
+
+        <RadioButton
+            android:id="@+id/main_rbn_xhfl"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:button="@null"
+            android:background="@drawable/selector_qx_button"
+            android:gravity="center"
+            android:text="@string/xhfl"
+            />
+
+        <RadioButton
+            android:id="@+id/main_rbn_xhds"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:button="@null"
+            android:background="@drawable/selector_qx_button"
+            android:gravity="center"
+            android:text="@string/xhds"
+            />
+
+        <RadioButton
+            android:id="@+id/main_rbn_gxtp"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:button="@null"
+            android:background="@drawable/selector_qx_button"
+            android:gravity="center"
+            android:text="@string/gxtp"
+            />
+    </RadioGroup>
+
+</RelativeLayout>
